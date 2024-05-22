@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+s@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
   height: 100%;
@@ -66,4 +66,25 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Solution */
+
+.modal {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+}
+
+.icon, .close-button {
+  flex-shrink: 0;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.continue, .cancel {
+  margin-top: 15px;
 }
